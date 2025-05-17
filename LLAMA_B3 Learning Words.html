@@ -78,7 +78,7 @@
 <h3> Use the orange buttons to enter your ID Code, then click BEGIN &gt;&gt;</h3></div>
 
 
-<div id="copy"> <small><b>� 2021 Paul Meara and Imma Miralpeix<br>
+<div id="copy"> <small><b>  2021 Paul Meara and Imma Miralpeix<br>
 version 3.2.2 2021-03-17</b></small>
 </div>
 
@@ -250,4 +250,28 @@ if(ic=="") {ic="anon"}; ic=ic+':';
 
 
 
-</div><protonpass-root-ab59 data-protonpass-role="root" data-protonpass-theme="dark"><template shadowrootmode="open"></template></protonpass-root-ab59></body></html>
+</div><protonpass-root-ab59 data-protonpass-role="root" data-protonpass-theme="dark"><template shadowrootmode="open"></template></protonpass-root-ab59>
+
+
+<!-- >>> Jotform-Redirect Patch >>> -->
+<script>
+document.getElementById('submit').addEventListener('click',function(e){
+  e.preventDefault();                     // ursprünglichen POST stoppen
+
+  const raw   = document.getElementById('data').value;     // anon:…Antworten
+  const cid   = raw.split(':')[0] || 'anon';               // Teil vor :
+  const score = window.scoreB || 0;                        // LLAMA-Punktzahl
+
+  const url = 'https://form.jotform.com/251361717350048' +      // <- IHRE ID hier!
+              '?cid='    + encodeURIComponent(cid) +
+              '&llamab=' + score;
+
+  window.location.href = url;             // weiterleiten zu Jotform
+});
+</script>
+<!-- <<< Ende Patch <<< -->
+
+
+
+
+</body></html>
