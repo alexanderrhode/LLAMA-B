@@ -1,0 +1,232 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>LLAMA E 4.0.6</title>
+    <script>
+        var cookieValue = document.cookie.split("; ").find((row) => row.startsWith("cookieconsent_status="))?.split("=")[1];
+        if (cookieValue != "allow") window['ga-disable-G-N17HKMNVWF'] = true;
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css" />
+ <script defer src="https://www.llamatests.org/index.bundle.js"></script>
+<script defer src="https://www.llamatests.org/697.bundle.js"></script>
+<script defer src="https://www.llamatests.org/LLAMA_E.bundle.js"></script>
+    <link href="https://www.llamatests.org/655.css" rel="stylesheet">
+    <link href="https://www.llamatests.org/index.css" rel="stylesheet">
+    <link href="https://www.llamatests.org/LLAMA_E.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100"><svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="noun-project-rotate-phone-andy-horvath" viewBox="0 0 64 80">
+            <path d="M59.9585,28.6123a.99993.99993,0,0,1-1.98829.21485A22.95616,22.95616,0,0,0,42.86005,9.6864L44.646,13.03271a1,1,0,0,1-1.76465.94141L40.2085,8.96631a1.45193,1.45193,0,0,1,.59765-1.97168L45.72754,4.396a1,1,0,0,1,.93359,1.76855L43.54456,7.81036A24.97223,24.97223,0,0,1,59.9585,28.6123Z" />
+            <path d="M23.19385,57.00537,18.27246,59.604a1,1,0,0,1-.93359-1.76855l3.11657-1.64581A24.97223,24.97223,0,0,1,4.0415,35.3877a1,1,0,0,1,1.98829-.21485A22.95616,22.95616,0,0,0,21.14,54.3136L19.354,50.96729a1.00007,1.00007,0,0,1,1.76465-.94141l2.67285,5.00781A1.45193,1.45193,0,0,1,23.19385,57.00537Z" />
+            <path d="M37.041,57.61523,6.38477,26.959a3.71386,3.71386,0,0,1,0-5.24609L21.71289,6.38477a3.71386,3.71386,0,0,1,5.24609,0L57.61523,37.041a3.71386,3.71386,0,0,1,0,5.24609L42.28711,57.61523A3.71325,3.71325,0,0,1,37.041,57.61523ZM23.127,7.79883,7.79883,23.127a1.71193,1.71193,0,0,0,0,2.418L38.45508,56.20117a1.71282,1.71282,0,0,0,2.418,0L56.20117,40.87305a1.71193,1.71193,0,0,0,0-2.418L25.54492,7.79883A1.71277,1.71277,0,0,0,23.127,7.79883Z" />
+            <path d="M14.6875,18.51953l3.832-3.832a.99992.99992,0,0,1,1.41406,1.41406l-3.832,3.832A.99991.99991,0,0,1,14.6875,18.51953Z" />
+            <path d="M43.42773,47.39648a2.80633,2.80633,0,1,1,3.96875,0A2.80943,2.80943,0,0,1,43.42773,47.39648ZM44.8418,44.8418a.80654.80654,0,1,0,1.14062,0A.80747.80747,0,0,0,44.8418,44.8418Z" />
+        </symbol>
+    </svg><audio id="auto_audio" preload="auto" autoplay="autoplay"></audio><audio id="preload_audio" preload="auto"></audio>
+    <main class="container-fluid my-auto">
+        <div class="mt-5 panel0 row hidden first_shown">
+            <p>LLAMA E tests how good you are at linking familiar sounds with unfamiliar letters.</p>
+            <p>This test uses sound &#x1F50A; so make sure you have your speaker volume turned up.</p>
+            <p>The next part will check that you can hear the sound from your web browser. Then you will have two minutes to study a new alphabet.</p>
+            <p>You may start the test early by pressing the yellow "START TEST" button. This button is enabled after 60 seconds, and we will ask you to select some words using this new alphabet.</p><br />
+            <form id="transition_zero_half" class="needs-validation" name="identifier" novalidate=""><label class="form-label" for="idTextBox">Identifier (5 to 15 UPPERCASE letters, and numbers):</label>
+                <div class="input-group has-validation"><span class="input-group-text" id="inputGroupPrepend">@</span> <input class="form-control" name="idTextBox" id="idTextBox" aria-describedby="inputGroupPrepend" required size="15" maxlength="15"> <button type="submit" class="btn btn-primary commbegin">BEGIN</button>
+                    <div class="invalid-feedback">Please enter 5 to 15 UPPERCASE letters, and numbers</div>
+                </div>
+            </form>
+        </div>
+        <div class="panelhalf row hidden first_shown">
+            <div class="rotate_alert alert alert-danger d-flex align-items-center" role="alert"><svg role="img" aria-label="Rotate phone:">
+                    <use xlink:href="#noun-project-rotate-phone-andy-horvath" />
+                </svg>
+                <h1 class="display-4">Please rotate your phone!</h1>
+            </div>
+            <div class="horz-cent mx-auto">
+                <table>
+                    <tr>
+                        <td colspan="6">
+                            <h3 class="table_centre">Press <span style="font-size:x-large;" class="material-icons">play_circle_filled</span> to check your sound</h3>
+                        </td>
+                        <td colspan="2">
+                            <h6 id="identifier1" class="table_centre">Identifier</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <div class="text-center"><button class="btn btn-secondary dcomm table_centre" id="soundcheck"><span style="font-size:40px;" class="material-icons">play_circle_filled</span></button></div>
+                        </td>
+                        <td colspan="2"><button disabled="disabled" class="btn btn-secondary dcheck" id="soundend" value="end">END SOUNDCHECK</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="8">
+                            <h3 id="prompt" class="table_centre">Press END SOUNDCHECK to begin</h3>
+                        </td>
+                    </tr>
+                    <table></table>
+                </table>
+            </div>
+        </div>
+        <div class="panel1 row hidden first_shown">
+            <div class="rotate_alert alert alert-danger d-flex align-items-center" role="alert"><svg role="img" aria-label="Rotate phone:">
+                    <use xlink:href="#noun-project-rotate-phone-andy-horvath" />
+                </svg>
+                <h1 class="display-4">Please rotate your phone!</h1>
+            </div>
+            <div class="horz-cent mx-auto">
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <h6 id="identifier2" class="table_centre">Identifier</h6>
+                        </td>
+                        <td colspan="6">
+                            <h3 class="table_centre">Click on the button to hear the sound</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary eitem" id="1" value="0&iuml;">0&iuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="2" value="3&iuml;">3&iuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="3" value="9&iuml;">9&iuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="4" value="0i">0i</button></td>
+                        <td><button class="btn btn-secondary eitem" id="5" value="3i">3i</button></td>
+                        <td><button class="btn btn-secondary eitem" id="6" value="9i">9i</button></td>
+                        <td><button class="btn btn-secondary eitem" id="7" value="0&icirc;">0&icirc;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="8" value="3&icirc;">3&icirc;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary eitem" id="9" value="0&euml;">0&euml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="10" value="3&euml;">3&euml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="11" value="9&euml;">9&euml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="12" value="0e">0e</button></td>
+                        <td><button class="btn btn-secondary eitem" id="13" value="3e">3e</button></td>
+                        <td><button class="btn btn-secondary eitem" id="14" value="9e">9e</button></td>
+                        <td><button class="btn btn-secondary eitem" id="15" value="0&ecirc;">0&ecirc;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="16" value="3&ecirc;">3&ecirc;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary eitem" id="17" value="0&uuml;">0&uuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="18" value="3&uuml;">3&uuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="19" value="9&uuml;">9&uuml;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="20" value="0u">0u</button></td>
+                        <td><button class="btn btn-secondary eitem" id="21" value="3u">3u</button></td>
+                        <td><button class="btn btn-secondary eitem" id="22" value="9u">9u</button></td>
+                        <td><button class="btn btn-secondary eitem" id="23" value="0&ucirc;">0&ucirc;</button></td>
+                        <td><button class="btn btn-secondary eitem" id="24" value="3&ucirc;">3&ucirc;</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="table_centre">
+                            <h3 id="practice_timer">2m 00s</h3>
+                        </td>
+                        <td colspan="3"></td>
+                        <td colspan="3">
+                            <form name="to_test" id="transition_one_two"><button disabled="disabled" id="start-test-btn" type="submit" class="btn btn-primary commwide">START TEST</button></form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="panel2 row hidden first_shown">
+            <div class="rotate_alert alert alert-danger d-flex align-items-center" role="alert"><svg role="img" aria-label="Rotate phone:">
+                    <use xlink:href="#noun-project-rotate-phone-andy-horvath" />
+                </svg>
+                <h1 class="display-4">Please rotate your phone!</h1>
+            </div>
+            <div class="horz-cent mx-auto">
+                <table>
+                    <tr>
+                        <td><button class="btn btn-secondary eword" id="dudi" value="dudi">3u3i</button></td>
+                        <td><button class="btn btn-secondary eword" id="dupi" value="dupi">3u0&iuml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="nudi" value="nudi">3&ucirc;3i</button></td>
+                        <td><button class="btn btn-secondary eword" id="mudi" value="mudi">0&ucirc;3i</button></td>
+                        <td><button class="btn btn-secondary eword" id="gita" value="gita">9i3&euml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="kuta" value="kuta">9&uuml;3&euml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="kupa" value="kupa">9&uuml;0&euml;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary eword" id="kama" value="kama">9&euml;0&ecirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="tata" value="tata">3&euml;3&euml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="tina" value="tina">3&iuml;3&ecirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="pata" value="pata">0&euml;3&euml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="pima" value="pima">0&iuml;0&ecirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="bita" value="bita">0i3&euml;</button></td>
+                        <td><button style="background-color:#EE7AE9 !important;" class="btn btn-secondary eword" id="????" value="????"><span style="font-size:x-large">?</span></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary eword" id="dinu" value="dinu">3i3&ucirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="tadu" value="tadu">3&euml;3u</button></td>
+                        <td><button class="btn btn-secondary eword" id="kadu" value="kadu">9&euml;3u</button></td>
+                        <td><button class="btn btn-secondary eword" id="maku" value="maku">0&ecirc;9&uuml;</button></td>
+                        <td><button class="btn btn-secondary eword" id="panu" value="panu">0&euml;3&ucirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="binu" value="binu">0i3&ucirc;</button></td>
+                        <td><button class="btn btn-secondary eword" id="bubu" value="bubu">0u0u</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-secondary commnarrow" id="next" value="next">NEXT</button></td>
+                        <td colspan="5">
+                            <h6 id="finder" class="table_centre">Click <strong>NEXT</strong> for the next test item</h6>
+                        </td>
+                        <td><button disabled="disabled" class="btn btn-secondary commnarrow" id="end" value="end">END</button></td>
+                    </tr>
+                    <table></table>
+                </table>
+            </div>
+        </div>
+        <div class="mt-5 panel3 row hidden first_shown">
+            <h1 class="display-5"><span id="thxidentifier"></span>, you scored <span id="totalScore"></span> out of a possible <span id="numAnswers"></span>.</h1>
+            <h1 class="display-5">Thank you <i class="bi-hand-thumbs-up-fill" style="font-size: 2rem; color: #FFEF00;"></i> (<span id="shorttotal"></span>/<span id="shortnum"></span>)</h1>
+            <div><canvas id="binned_chart"></canvas></div>
+            <p>LLAMA_E tests how good you are at linking familiar sounds with unfamiliar letters.</p>
+            <div class="d-flex"><button type="submit" class="btn btn-primary commexit" id="exitfs" value="exitfs">Exit Full Screen</button></div>
+            <h1 class="display-6">The next LLAMA test we suggest you take is <a href="/tests/LLAMA_F.html">LLAMA F</a>.</h1>
+        </div>
+    </main>
+    <footer class="mt-auto py-3 bg-light">
+        <div class="container-fluid"><span class="text-muted">Version 4.0.6 2025-02-25 &copy 2025 Swansea University</span><br /><span class="text-muted">Developed by <a href="https://swansea.ac.uk/digital-humanities">Digital Humanities</a></span> <span class="text-muted">| <a href="/">Home</a></span> <span class="text-muted">| <a href="/resources/">Resources</a></span> <span class="text-muted">| <a href="/privacy/">Privacy</a></span> <span class="text-muted">| <a href="/cookies/">Cookies</a></span> <span class="text-muted">| <a href="/index.bundle.js.LICENSE.txt">Licenses</a></span></div>
+    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N17HKMNVWF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N17HKMNVWF');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#237afc"
+                },
+                "button": {
+                    "background": "#fff",
+                    "text": "#237afc"
+                }
+            },
+            "type": "opt-out",
+            "position": "bottom",
+            "content": {
+                "message": "We use Google analytics cookies on this site, to collect usage data.",
+                "href": "/cookies/",
+                "policy": "Cookies",
+            },
+            revokable: true,
+            onStatusChange: function(status) {
+                this.hasConsented() ? window['ga-disable-G-N17HKMNVWF'] = false : window['ga-disable-G-N17HKMNVWF'] = true;
+            },
+            law: {
+                regionalLaw: false,
+            },
+            location: true,
+        });
+    </script>
+</body>
+
+</html>
